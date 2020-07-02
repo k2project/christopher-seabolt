@@ -6,7 +6,7 @@ export default function Section({ cls, children }) {
         let top = img.current.parentElement.getBoundingClientRect().top;
         img.current.style.top = -top * 0.3 + 'px';
     };
-    //working with git
+    //new comment
     useEffect(() => {
         window.addEventListener('scroll', onScroll);
         return () => {
