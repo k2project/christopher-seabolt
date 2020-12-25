@@ -19,9 +19,7 @@ export default function Section({ cls, header, children }) {
                 <div className='paralex-img' ref={img}></div>
                 <div className='paralex-cover'>{header}</div>
             </section>
-            <div className='filler'>
-                {children}
-            </div>
+            {children}
         </Fragment>
     );
 }

@@ -1,14 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import Logo from '../components/Logo';
 
 export default function Header() {
     return (
         <header>
-            <h1>
-                {/* <Logo /> <b>k2project</b> */}
+            <div className='logo'>
                 christopher<span className='color--theme'>seabolt</span>
-            </h1>
+            </div>
             <nav>
                 <ul>
                     <li>

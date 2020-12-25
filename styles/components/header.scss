@@ -1,0 +1,31 @@
+.logo {
+    font-size: 2.6rem;
+    font-weight: 600;
+    span {
+        font-weight: 600;
+    }
+}
+
+header {
+    max-width: 110rem;
+    padding: 3.5rem 4rem 3rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    nav {
+        flex-grow: 1;
+        text-align: right;
+        padding: 0.7rem 0 0.2rem;
+    }
+    li {
+        display: inline-block;
+        padding: 0 1.2rem;
+    }
+    a {
+        font-size: 1.6rem;
+    }
+    b {
+        font-size: 1.8rem;
+    }
+}
