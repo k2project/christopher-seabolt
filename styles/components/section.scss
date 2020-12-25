@@ -23,7 +23,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     display: grid;
     align-content: center;
     text-align: center;
@@ -40,12 +40,12 @@
     font-weight: 300;
 }
 .top .paralex-img {
-    background-image: url('/imgs/bg1.jpg');
+    background-image: url('/imgs/top.jpg');
     background-position: center 10%;
 }
 .middle .paralex-img {
-    background-image: url('/imgs/bg2.jpg');
-    background-position: center 10%;
+    background-image: url('/imgs/medium.jpg');
+    background-position: center;
 }
 .bottom .paralex-img {
     background-image: url('/imgs/bg3.jpg');
