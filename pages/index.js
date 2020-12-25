@@ -59,10 +59,10 @@ export default function Home() {
                    
                 </Section>
                 <Section cls='bottom' header={<>
-                    <h2 className='paralex-title'>Let's talk business!</h2>
-                    <p className='paralex-subtitle'>
+                    <h2 className='paralex-title'>Let's Connect</h2>
+                    {/* <p className='paralex-subtitle'>
                         You can say what you want here. Just sell it!
-                    </p>
+                    </p> */}
                     {/* <div className='btn-box'>
                         <button className='btn btn--theme'>Take action</button>
                     </div> */}
