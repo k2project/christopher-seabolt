@@ -15,7 +15,8 @@
     transform: translateZ(0); //for safari jittering on scroll
 }
 .wrapper {
-    max-width: 100rem;
+    max-width: 120rem;
+    width: 80%;
     padding: 10rem 4rem;
     margin: auto;
 }
