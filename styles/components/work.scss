@@ -34,8 +34,9 @@
     }
 }
 .in {
+    display: inline-flex;
     height: 8rem;
-    margin: 2rem auto 0;
+    margin: 4rem auto 0;
     border: solid 0.3rem #fff;
     padding: 1rem;
     border-radius: 8px;
