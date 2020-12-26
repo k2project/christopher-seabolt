@@ -1,0 +1,32 @@
+.projects {
+    height: 60rem;
+}
+.projects .paralex-img {
+    background-image: url('/imgs/city.jpg');
+    background-position: center bottom;
+}
+
+.projects-header {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($COLOR_THEME, 0.7);
+    font-size: 1.6rem;
+    a {
+        display: block;
+        padding-top: 1rem;
+    }
+    ul {
+        padding-top: 2rem;
+    }
+}
+.projects-count {
+    font-size: 3.5rem;
+    font-weight: 700;
+    b {
+        font-size: 7rem;
+        display: block;
+    }
+}

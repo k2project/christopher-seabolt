@@ -20,6 +20,11 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
+                        <Link href='/#my-projects'>
+                            <a>Projects</a>
+                        </Link>
+                    </li>
+                    <li>
                         <Link href='/#contact-me'>
                             <a>Contact me</a>
                         </Link>

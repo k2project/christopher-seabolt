@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 // import '../styles/styles.scss';
 import About from '../components/sections/About';
 import Work from '../components/sections/Work';
+import Projects from '../components/sections/Projects';
 import Contact from '../components/sections/Contact';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -18,6 +19,7 @@ export default function Home() {
             <main>
                 <About />
                 <Work />
+                <Projects />
                 <Contact />
             </main>
             <Footer />
