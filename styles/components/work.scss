@@ -2,16 +2,16 @@
     padding: 3rem;
     width: 100%;
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
     li {
         vertical-align: top;
-        display: inline-flex;
-        width: 46%;
-        margin: 2%;
+        margin: 1rem;
         background-color: rgba(22, 33, 44, 0.02);
-        // flex-direction: column;
+        display: flex;
         align-items: center;
-        justify-content: center;
-        height: 28rem;
+        min-height: 25rem;
         font-size: 1.5rem;
         // text-align: center;
         padding: 2rem 3rem;
@@ -20,6 +20,7 @@
     }
     img {
         margin-right: 2rem;
+        float: left;
         transform: translateX(-0.4rem);
         height: 7rem;
         opacity: 0.2;

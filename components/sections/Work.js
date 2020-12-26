@@ -53,16 +53,16 @@ export default function Work() {
                     </p>
                     <ul className='work'>
                         <li>
-                            <img src='/imgs/plan.png' alt='' />
                             <span>
+                                <img src='/imgs/plan.png' alt='' />
                                 <b>Business plans</b> must reflect pragmatic
                                 go-to-market strategies, with target markets of
                                 sufficient size to accommodate early-stage risk.
                             </span>
                         </li>
                         <li>
-                            <img src='/imgs/strategy.png' alt='' />
                             <span>
+                                <img src='/imgs/strategy.png' alt='' />
                                 <b>Execution strategies</b> within these target
                                 markets must be pragmatic in terms of achievable
                                 results within limited cash and human resource
@@ -70,8 +70,8 @@ export default function Work() {
                             </span>
                         </li>
                         <li>
-                            <img src='/imgs/bulb.jpg' alt='' />
                             <span>
+                                <img src='/imgs/bulb.jpg' alt='' />
                                 <b>Products</b> must be developed to pragmatic
                                 market needs.
                                 <small>
@@ -86,8 +86,8 @@ export default function Work() {
                         </li>
 
                         <li>
-                            <img src='/imgs/infastructure.png' alt='' />
                             <span>
+                                <img src='/imgs/infastructure.png' alt='' />
                                 <b>Operational infrastructures </b> must be
                                 pragmatically large enough to achieve target
                                 go-to-market execution goals, while
