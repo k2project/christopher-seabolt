@@ -4,7 +4,7 @@
 body {
     overflow-x: hidden;
     color: #223344;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -94,4 +94,5 @@ footer {
     color: $COLOR_SECONDARY_DARK;
     padding: 3rem 4rem;
     text-align: center;
+    font-size: 1.2rem;
 }
