@@ -11,7 +11,7 @@ const Header = (
                 <b>12+</b>International Projects
             </div>
             <a href='https://www.linkedin.com/in/christopher-seabolt-144a5a/'>
-                Learn more at LinkedIn
+                Learn more on LinkedIn
             </a>
             {ProjectsList}
         </div>
