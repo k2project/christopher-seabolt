@@ -14,7 +14,7 @@ const Header = (
 export default function Work() {
     return (
         <Section cls='middle' header={Header}>
-            <div className='wrapper w-b two-columns' id='what-I-do'>
+            <div className='wrapper two-columns' id='what-I-do'>
                 <h2></h2>
                 <div className='column-left'>
                     <h3 className='section-subtitle'>
@@ -44,7 +44,7 @@ export default function Work() {
                 </div>
             </div>
             <div className='bg--secondary'>
-                <div className='wrapper w-t'>
+                <div className='wrapper'>
                     <p>
                         When the combination of these competences have been
                         brought together and made available to early-stage
