@@ -53,10 +53,16 @@
     font-weight: 400;
     margin-top: 1rem;
 }
+.top {
+    height: 60rem;
+}
 .top .paralex-img {
     background-image: url('/imgs/top.jpg');
-    background-position: center 10%;
+    background-position: right 10%;
     filter: grayscale(40%);
+}
+.top .paralex-cover {
+    padding-top: 10rem;
 }
 .middle .paralex-img {
     background-image: url('/imgs/medium.jpg');

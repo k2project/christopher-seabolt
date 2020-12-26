@@ -15,7 +15,7 @@ export default function Home() {
                 <title>Demo</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Header />
+            {/* <Header /> */}
             <main>
                 <About />
                 <Work />
