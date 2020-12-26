@@ -12,7 +12,9 @@ export default function Home() {
     return (
         <Fragment>
             <Head>
-                <title>Demo</title>
+                <title>
+                    Christopher Seabolt | Venture Capital Professional
+                </title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             {/* <Header /> */}
