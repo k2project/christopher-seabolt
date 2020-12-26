@@ -36,8 +36,8 @@
     padding: 4rem 4rem 2rem;
 }
 .paralex-title {
-    font-size: 5.6rem;
-    // text-transform: uppercase;
+    font-size: 5rem;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.2rem;
     line-height: 1.1;
@@ -47,18 +47,16 @@
     font-weight: 400;
     margin-top: 1rem;
 }
-.top {
-    height: 60rem;
-}
+
 .top .paralex-img {
     background-image: url('/imgs/top.jpg');
     background-position: right 10%;
     filter: grayscale(40%);
     top: 0;
 }
-.top .paralex-cover {
-    padding-top: 10rem;
-}
+// .top .paralex-cover {
+//     padding-top: 10rem;
+// }
 .middle .paralex-img {
     background-image: url('/imgs/medium.jpg');
     background-position: center;

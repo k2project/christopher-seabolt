@@ -38,32 +38,7 @@ p {
     margin-bottom: 1rem;
     line-height: 1.6;
 }
-.btn-box {
-    margin: 3rem auto;
-}
-.btn {
-    color: $COLOR_DARK;
-    border: solid 0.1rem $COLOR_DARK;
-    padding: 1.4rem;
-    min-width: 25rem;
-    margin-right: 1.5rem;
-    text-align: center;
-    display: inline-block;
-    font-size: 1.6rem;
-    display: block;
-}
 
-.btn:hover {
-    text-decoration: none;
-}
-.btn--theme {
-    background-color: $COLOR_THEME;
-    border-color: $COLOR_THEME;
-}
-.btn--theme:hover {
-    background-color: darken($COLOR_THEME, 10%);
-    border-color: darken($COLOR_THEME, 10%);
-}
 .bg--theme {
     background-color: $COLOR_THEME;
 }
