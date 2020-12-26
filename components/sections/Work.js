@@ -3,7 +3,9 @@ import Section from '../Section';
 
 const Header = (
     <>
-        <div className='paralex-title'>Navigate to Success</div>
+        <div className='paralex-title'>
+            Navigate to <b className='color--theme '>Success</b>
+        </div>
         <p className='paralex-subtitle'>
             Drive rapid scale to enhanced exit returns.
         </p>
@@ -12,29 +14,34 @@ const Header = (
 export default function Work() {
     return (
         <Section cls='middle' header={Header}>
-            <div className='wrapper w-b'>
+            <div className='wrapper w-b two-columns' id='what-I-do'>
                 <h2></h2>
-                <h3 className='section-subtitle'>
-                    No company failed because things went according to plan.
-                </h3>
-                <p>
-                    The world of and approach to early-stage venture investing
-                    ceased to make pragmatic sense decades ago.
-                </p>
-                <p>
-                    Realized returns are fundamental but seem largely absent
-                    from focus. The industry is driven by a focus on PR and not
-                    IRR. There is no other financial sector where achievable
-                    returns are as of little relevance. This is not sustainable.
-                </p>
-                <p>
-                    There is a misconception that if you provide capital to
-                    early-stage companies, they are positioned to succeed.
-                    Pragmatic execution strategies on deployed capital are the
-                    primary failure point in early-stage. Venture investors at
-                    these stages must not only provide capital but bridge
-                    operational and executional competences.
-                </p>
+                <div className='column-left'>
+                    <h3 className='section-subtitle'>
+                        No company failed because things went according to plan.
+                    </h3>
+                    <p>
+                        The world of and approach to early-stage venture
+                        investing ceased to make pragmatic sense decades ago.
+                    </p>
+                </div>
+                <div className='column-right'>
+                    <p>
+                        Realized returns are fundamental but seem largely absent
+                        from focus. The industry is driven by a focus on PR and
+                        not IRR. There is no other financial sector where
+                        achievable returns are as of little relevance. This is
+                        not sustainable.
+                    </p>
+                    <p>
+                        There is a misconception that if you provide capital to
+                        early-stage companies, they are positioned to succeed.
+                        Pragmatic execution strategies on deployed capital are
+                        the primary failure point in early-stage. Venture
+                        investors at these stages must not only provide capital
+                        but bridge operational and executional competences.
+                    </p>
+                </div>
             </div>
             <div className='bg--secondary'>
                 <div className='wrapper w-t'>
@@ -46,37 +53,47 @@ export default function Work() {
                     </p>
                     <ul className='work'>
                         <li>
-                            <img src='/imgs/plan.jpg' alt='' />
-                            Business plans must reflect pragmatic go-to-market
-                            strategies, with target markets of sufficient size
-                            to accommodate early-stage risk.
+                            <img src='/imgs/plan.png' alt='' />
+                            <span>
+                                <b>Business plans</b> must reflect pragmatic
+                                go-to-market strategies, with target markets of
+                                sufficient size to accommodate early-stage risk.
+                            </span>
+                        </li>
+                        <li>
+                            <img src='/imgs/strategy.png' alt='' />
+                            <span>
+                                <b>Execution strategies</b> within these target
+                                markets must be pragmatic in terms of achievable
+                                results within limited cash and human resource
+                                constraints.
+                            </span>
                         </li>
                         <li>
                             <img src='/imgs/bulb.jpg' alt='' />
-                            Products must be developed to pragmatic market
-                            needs.
-                            <small>
-                                There are too many solutions looking for a
-                                problem, and far too many overengineered
-                                solutions predicated on the technology aspects
-                                of the product enhancing price relative to
-                                simpler, less engineering intensive and lower
-                                cost alternatives.
-                            </small>
+                            <span>
+                                <b>Products</b> must be developed to pragmatic
+                                market needs.
+                                <small>
+                                    There are too many solutions looking for a
+                                    problem, and far too many overengineered
+                                    solutions predicated on the technology
+                                    aspects of the product enhancing price
+                                    relative to simpler, less engineering
+                                    intensive and lower cost alternatives.
+                                </small>
+                            </span>
                         </li>
 
                         <li>
-                            <img src='/imgs/strategy.png' alt='' />
-                            Execution strategies within these target markets
-                            must be pragmatic in terms of achievable results
-                            within limited cash and human resource constraints.{' '}
-                        </li>
-                        <li>
                             <img src='/imgs/infastructure.png' alt='' />
-                            Operational infrastructures must be pragmatically
-                            large enough to achieve target go-to-market
-                            execution goals, while pragmatically small enough to
-                            maximize benefit across limited resources.{' '}
+                            <span>
+                                <b>Operational infrastructures </b> must be
+                                pragmatically large enough to achieve target
+                                go-to-market execution goals, while
+                                pragmatically small enough to maximize benefit
+                                across limited resources.
+                            </span>
                         </li>
                     </ul>
 

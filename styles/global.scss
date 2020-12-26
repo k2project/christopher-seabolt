@@ -5,6 +5,9 @@ body {
     overflow-x: hidden;
     color: #223344;
 }
+html {
+    scroll-behavior: smooth;
+}
 h1,
 h2,
 .sr-only {
@@ -85,7 +88,9 @@ p {
 }
 
 footer {
-    background-color: $COLOR_THEME;
-    padding: 2rem;
+    background-color: $COLOR_SECONDARY_DARK;
+    background-color: $COLOR_SECONDARY;
+    color: $COLOR_SECONDARY_DARK;
+    padding: 3rem 4rem;
     text-align: center;
 }

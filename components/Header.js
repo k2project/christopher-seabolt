@@ -10,17 +10,17 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <Link href='/#who'>
+                        <Link href='/#who-I-am'>
                             <a>Who I am</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href='/#how'>
+                        <Link href='/#what-I-do'>
                             <a>What I do</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href='/#contact'>
+                        <Link href='/#contact-me'>
                             <a>Contact me</a>
                         </Link>
                     </li>

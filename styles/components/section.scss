@@ -1,18 +1,18 @@
 .paralex {
-    height: 80vh;
+    height: 50rem;
     min-height: 50rem;
     overflow: hidden;
 }
 .paralex-img {
     position: absolute;
-    height: 140vh;
-    min-height: calc(50rem + 40vh);
+    height: 90rem;
     width: 100vw;
-    top: -20vh;
+    top: -20rem;
     left: 0;
     background-size: cover;
     background-position: center top;
     filter: grayscale(60%);
+    transform: translateZ(0); //for safari jittering on scroll
 }
 .wrapper {
     max-width: 100rem;
@@ -37,7 +37,7 @@
     align-content: center;
     text-align: center;
     color: #fff;
-    padding-top: 2rem;
+    padding: 4rem 4rem 2rem;
 }
 .paralex-title {
     font-size: 6rem;
@@ -69,4 +69,14 @@
     font-size: 2.4rem;
     font-weight: 800;
     margin: 2rem 0;
+}
+.two-columns {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.column-left {
+    padding-right: 5rem;
+}
+.column-right {
 }

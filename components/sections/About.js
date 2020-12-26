@@ -5,7 +5,7 @@ const Header = (
     <>
         <div className='paralex-title'>
             Early-stage Venture <br />
-            Gamechanger
+            <b className='color--theme '>Gamechanger</b>
         </div>
         <p className='paralex-subtitle'>
             Top 5% Industry Performance, Returns Weighted.
@@ -15,7 +15,7 @@ const Header = (
 export default function About() {
     return (
         <Section cls='top' header={Header}>
-            <div className='wrapper wrapper-w-padding'>
+            <div className='wrapper wrapper-w-padding' id='who-I-am'>
                 <h2></h2>
                 <h3 className='section-subtitle'>
                     Venture Capital Professional - Generalist Technology,

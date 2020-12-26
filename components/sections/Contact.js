@@ -3,7 +3,9 @@ import Section from '../Section';
 
 const Header = (
     <>
-        <div className='paralex-title'>Let's Connect</div>
+        <div className='paralex-title' id='contact-me'>
+            Let's Connect
+        </div>
         <a href='https://www.linkedin.com/in/christopher-seabolt-144a5a/'>
             <img src='/imgs/in.png' alt='linked in account' className='in' />
         </a>
