@@ -14,7 +14,7 @@ const Header = (
 );
 export default function About() {
     return (
-        <Section cls='top' header={Header} showNav={false}>
+        <Section cls='top' header={Header}>
             <div className='wrapper' id='who-I-am'>
                 <div className='two-columns'>
                     <div className='about'>

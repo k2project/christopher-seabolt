@@ -2,7 +2,7 @@
     height: 55rem;
     min-height: 50rem;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(79, 91, 112, 1);
 }
 .paralex-img {
     position: absolute;
@@ -28,7 +28,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(33, 33, 38, 0.7);
+    background-color: rgba(79, 91, 112, 0.6);
     display: grid;
     align-content: center;
     text-align: center;
@@ -50,15 +50,15 @@
 
 .top .paralex-img {
     background-image: url('/imgs/top.jpg');
+    background-image: url('/imgs/business1.jpg');
     background-position: right 10%;
     filter: grayscale(40%);
     top: 0;
 }
-// .top .paralex-cover {
-//     padding-top: 10rem;
-// }
+
 .middle .paralex-img {
     background-image: url('/imgs/medium.jpg');
+    background-image: url('/imgs/business3.jpg');
     background-position: center;
 }
 .bottom .paralex-img {
