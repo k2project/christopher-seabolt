@@ -4,7 +4,7 @@ export default function Section({ cls, header, children }) {
     const img = useRef(null);
     const onScroll = () => {
         let top = img.current.parentElement.getBoundingClientRect().top;
-        img.current.style.top = -top * 0.2 + 'px';
+        img.current.style.top = -top * 0.3 + 'px';
     };
 
     useEffect(() => {
