@@ -61,7 +61,7 @@ const Header = (
             {ProjectsList}
             <a href='https://www.linkedin.com/in/christopher-seabolt-144a5a/'>
                 <img src='/imgs/link.png' alt='' className='link' />
-                Learn more about all Christopher's projects on LinkedIn
+                More about all Christopher's projects on LinkedIn
             </a>
         </div>
     </div>
