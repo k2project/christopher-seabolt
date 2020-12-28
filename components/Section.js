@@ -4,7 +4,13 @@ export default function Section({ cls, header, children }) {
     const img = useRef(null);
     const onScroll = () => {
         let top = img.current.parentElement.getBoundingClientRect().top;
-        img.current.style.top = -top * 0.3 + 'px';
+        const styledTop = -top * 0.3;
+        img.current.style.top =
+            styledTop > 200
+                ? '200px'
+                : styledTop < -200
+                ? '-200px'
+                : styledTop + 'px';
     };
 
     useEffect(() => {
