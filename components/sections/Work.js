@@ -46,7 +46,7 @@ export default function Work() {
             <div className='bg--secondary'>
                 <div className='wrapper'>
                     <p>
-                        When the combination of these competences have been
+                        When the combination of these competences has been
                         brought together and made available to early-stage
                         companies, Christopher delivered market leading results
                         across a broad spectrum of industries.

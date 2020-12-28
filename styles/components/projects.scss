@@ -4,7 +4,9 @@
 .projects .paralex-img {
     background-image: url('/imgs/business2.jpg');
     background-image: url('/imgs/building.png');
-    background-position: center;
+    background-position: 70% center;
+    // background-image: url('/imgs/building2.jpg');
+    // background-position: center bottom;
 }
 
 .projects-header {
@@ -13,14 +15,20 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba($COLOR_THEME, 0.7);
+    background-color: rgba(lighten($COLOR_THEME, 5), 0.7);
     font-size: 1.6rem;
     a {
-        display: block;
-        padding-top: 1rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-weight: 600;
     }
     ul {
-        padding-top: 2rem;
+        padding: 4rem 0;
+    }
+    li {
+        display: inline-block;
     }
 }
 .projects-count {
@@ -30,4 +38,16 @@
         font-size: 7rem;
         display: block;
     }
+}
+.project_logo {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1.2rem 2.2rem;
+    height: 7rem;
+    border-radius: 8px;
+    margin: 0.7rem 1rem;
+}
+.link {
+    height: 2.8rem;
+    filter: invert(1);
+    margin-right: 0.7rem;
 }
