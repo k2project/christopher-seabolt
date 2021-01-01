@@ -23,7 +23,8 @@ export default function Section({ cls, header, children }) {
         <>
             <section className={'paralex ' + cls}>
                 <div className='paralex-img' ref={img}></div>
-                <div className='paralex-cover'>{header}</div>
+                <div className='paralex-cover'></div>
+                {header}
             </section>
             {children}
         </>

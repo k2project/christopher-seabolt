@@ -53,8 +53,9 @@ const ProjectsList = (
 );
 
 const Header = (
-    <div className='projects-header' id='my-projects'>
-        <div className='wrapper'>
+    <>
+        <div className='projexts-cover cover'></div>
+        <div className='projects-header' id='my-projects'>
             <div className='projects-count'>
                 <b>30+</b>International Projects
             </div>
@@ -64,7 +65,7 @@ const Header = (
                 More about all Christopher's projects on LinkedIn
             </a>
         </div>
-    </div>
+    </>
 );
 
 export default function Projects() {

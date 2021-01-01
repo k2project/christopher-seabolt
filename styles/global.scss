@@ -71,3 +71,22 @@ footer {
     text-align: center;
     font-size: 1.2rem;
 }
+
+.wrapper {
+    max-width: 110rem;
+    width: 80%;
+    padding: 10rem 4rem;
+    margin: auto;
+}
+
+@include tablet {
+    .wrapper {
+        // border: solid 1px red;
+        width: 100%;
+    }
+}
+@include mobile {
+    .wrapper {
+        // border: solid 1px green;
+    }
+}
