@@ -46,6 +46,13 @@ export default function Work() {
             <div className='bg--secondary'>
                 <div className='wrapper'>
                     <p>
+                        Money isn’t the magic quality that transforms and scales
+                        early-stage companies. <br />
+                        <b> Money + strategy + execution</b> is required.
+                        Venture capital investors in these stages must be able
+                        to demonstrably deliver all three
+                    </p>
+                    <p>
                         When the combination of these competences has been
                         brought together and made available to early-stage
                         companies, Christopher delivered market leading results
@@ -73,15 +80,11 @@ export default function Work() {
                             <span>
                                 <img src='/imgs/bulb.jpg' alt='' />
                                 <b>Products</b> must be developed to pragmatic
-                                market needs.
-                                <small>
-                                    There are too many solutions looking for a
-                                    problem, and far too many overengineered
-                                    solutions predicated on the technology
-                                    aspects of the product enhancing price
-                                    relative to simpler, less engineering
-                                    intensive and lower cost alternatives.
-                                </small>
+                                market needs. There are too many solutions
+                                looking for a problem, and too many
+                                overengineered solutions expecting the product’s
+                                technology aspects to support high prices
+                                relative to simpler and lower cost alternatives.
                             </span>
                         </li>
 

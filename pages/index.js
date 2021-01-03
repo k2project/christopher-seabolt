@@ -15,51 +15,48 @@ export default function Home() {
                 <title>
                     Christopher Seabolt | Venture Capital Professional
                 </title>
-                {/* <meta
+                <meta
                     name='description'
-                    content='A qualified and experienced psychotherapist offering a safe place for you to explore your feelings and work through difficult issues. With now available online therapy you can meet without the restrictions of place and time to get the help you need.'
+                    content='Christopher holds over 30 years of venture capital and operational experience in early-stage growth companies. Of almost 20 deals across multiple funds in the early-stage sector, consisting entirely of Seed and Start-up, Christopher has engineered successful (+money) exits for well over half of these, with extraordinarily high returns across all managed portfolios.'
                 />
                 <meta
                     name='keywords'
-                    content='Nicola More, Counselling, Psychotherapy, London, online '
-                /> */}
+                    content='venture capital, early-stage, startup, seed, highest performance, experienced, realized returns'
+                />
                 <meta name='author' content='@_k2project' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1.0'
                 />
-                {/* <meta
-                    property='og:title'
-                    content='Nicola Moore | Counselling and Psychotherapy'
-                />
                 <meta
-                    property='og:url'
-                    content='https://www.nicolamooretherapy.co.uk'
+                    property='og:title'
+                    content='Christopher Seabolt | Venture Capital Professional'
                 />
+                <meta property='og:url' content='https://www.armillary.eu' />
                 <meta property='og:type' content='website' />
                 <meta
                     property='og:description'
-                    content='A qualified and experienced psychotherapist offering a safe place for you to explore your feelings and work through difficult issues. With now available online therapy you can meet without the restrictions of place and time to get the help you need.'
-                /> */}
-                {/* <meta
+                    content='Christopher holds over 30 years of venture capital and operational experience in early-stage growth companies. Of almost 20 deals across multiple funds in the early-stage sector, consisting entirely of Seed and Start-up, Christopher has engineered successful (+money) exits for well over half of these, with extraordinarily high returns across all managed portfolios.'
+                />
+                <meta
                     property='og:image'
-                    content='https://www.nicolamooretherapy.co.uk/imgs/nicola_moore_small.png'
-                /> */}
+                    content='https://www.www.armillary.eu/imgs/christopher-seabolt.jpg'
+                />
 
-                {/* <script
+                <script
                     async
                     src='https://www.googletagmanager.com/gtag/js?id=UA-180574978-1'
-                ></script> */}
-                {/* <script
+                ></script>
+                <script
                     dangerouslySetInnerHTML={{
                         __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-180574978-1');
+            gtag('config', 'G-0F90YHNWN0');
         `,
                     }}
-                /> */}
+                />
                 <link rel='preconnect' href='https://fonts.gstatic.com' />
                 <link
                     href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap'

@@ -23,12 +23,12 @@ export default function Header() {
                 <ul>
                     <li onClick={toggleMenu}>
                         <Link href='/#who-I-am'>
-                            <a>Who I am</a>
+                            <a>Biography</a>
                         </Link>
                     </li>
                     <li onClick={toggleMenu}>
                         <Link href='/#what-I-do'>
-                            <a>What I do</a>
+                            <a>Methodology</a>
                         </Link>
                     </li>
                     <li onClick={toggleMenu}>
@@ -36,11 +36,11 @@ export default function Header() {
                             <a>Projects</a>
                         </Link>
                     </li>
-                    <li onClick={toggleMenu}>
+                    {/* <li onClick={toggleMenu}>
                         <Link href='/#contact-me'>
                             <a>Blog</a>
                         </Link>
-                    </li>
+                    </li> */}
                     <li onClick={toggleMenu}>
                         <Link href='/#contact-me'>
                             <a>Contact</a>
