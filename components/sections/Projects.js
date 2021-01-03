@@ -55,7 +55,7 @@ const ProjectsList = (
 const Header = (
     <>
         <div className='projects-cover cover'></div>
-        <div className='projects-header wrapper' id='my-projects'>
+        <div className='projects-header wrapper'>
             <div className='projects-count'>
                 <b>30+</b>International Projects
             </div>
@@ -69,5 +69,5 @@ const Header = (
 );
 
 export default function Projects() {
-    return <Section cls='projects' header={Header} />;
+    return <Section cls='projects' header={Header} id='my-projects' />;
 }

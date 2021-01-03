@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-export default function Section({ cls, header, children }) {
+export default function Section({ cls, header, children, id }) {
     const img = useRef(null);
     const onScroll = () => {
         let top = img.current.parentElement.getBoundingClientRect().top;
@@ -21,7 +21,7 @@ export default function Section({ cls, header, children }) {
     });
     return (
         <>
-            <section className={'paralex ' + cls}>
+            <section className={'paralex ' + cls} id={id}>
                 <div className='paralex-img' ref={img}></div>
                 <div className='paralex-cover'></div>
                 {header}
