@@ -78,15 +78,30 @@ footer {
     padding: 10rem 4rem;
     margin: auto;
 }
+.two-columns {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+.column-left {
+    padding-right: 5rem;
+}
 
 @include tablet {
     .wrapper {
-        // border: solid 1px red;
         width: 100%;
     }
 }
 @include mobile {
     .wrapper {
-        // border: solid 1px green;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    .two-columns {
+        display: block;
+    }
+    .column-left {
+        padding-right: 0;
     }
 }

@@ -5,7 +5,7 @@ const Header = (
     <>
         <div className='paralex-title'>
             Early-stage Venture <br />
-            <b className='color--theme '>Gamechanger</b>
+            <b className='color--theme gamechanger'>Gamechanger</b>
         </div>
         <p className='paralex-subtitle'>
             Top 5% Industry Performance, Returns Weighted.
