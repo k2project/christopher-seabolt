@@ -54,7 +54,7 @@ const ProjectsList = (
 
 const Header = (
     <>
-        <div className='projexts-cover cover'></div>
+        <div className='projects-cover cover'></div>
         <div className='projects-header wrapper' id='my-projects'>
             <div className='projects-count'>
                 <b>30+</b>International Projects
